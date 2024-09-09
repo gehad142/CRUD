@@ -1,0 +1,79 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  
+
+</head>
+
+<body>
+
+ <main class="w-75 mx-auto" >
+ <section  class="bg-info p-3">
+ <div class="input-form mb-2">
+    <label for="productName">productName:</label>
+  <input type="text" class="form-control" id="productName" placeholder="product Name">
+ </div>
+ <div class="input-form mb-2">
+    <label for="productPeice">productPeice:</label>
+  <input type="number" class="form-control" id="productPrice" placeholder="product Price">
+ </div>
+ <div class="input-form mb-2">
+    <label for="productCategory">productCategory:</label>
+  <input type="text" class="form-control" id="productCategory" placeholder="product Category">
+ </div>
+ <div class="input-form mb-2">
+    <label for="productDescription">productDescription:</label>
+  <textarea  class="form-control" id="productDescription" placeholder="product Description"></textarea>
+ </div>
+ <button class="btn btn-primary w-100 " onclick="addProduct()"> Add Product</button>
+ </section>
+ <section class=" mt-4">
+ <table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>price</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+        </tr>
+    </tbody>
+
+ </table>
+ </section>
+ </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+</html>
